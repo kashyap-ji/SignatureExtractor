@@ -37,3 +37,5 @@ if __name__ == "__main__":
     weights = "path/to/your/yolo5_model.pt"  # Replace with the path to your trained model
     source = "path/to/your/photo.jpg"  # Replace with the path to the photo you want to test
     run(weights, source)
+
+#How to run:   python detect.py --weights path/to/your/yolo5_model.pt --source path/to/your/photo.jpg --output_dir output
